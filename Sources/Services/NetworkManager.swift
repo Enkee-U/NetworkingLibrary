@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NetworkManager: NetworkProtocol {
+public class NetworkManager: NetworkProtocol {
 /*
  This function is a reusable network fetcher that downloads data from a given URL,
  checks the response status, and decodes the data into any type that conforms to Decodable.

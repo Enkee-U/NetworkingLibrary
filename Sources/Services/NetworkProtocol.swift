@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol NetworkProtocol {
+public protocol NetworkProtocol {
     func fetchData<T: Decodable>(from url: URL) async throws -> T
 }
 /*
